@@ -1,6 +1,6 @@
 import { AiFillBulb, AiFillGithub, AiFillMail } from 'react-icons/ai';
 // import { RxNotionLogo } from 'react-icons/rx';
-// import { RiProfileFill } from 'react-icons/ri';
+import { RiProfileFill } from 'react-icons/ri';
 import styled from 'styled-components';
 
 const ContactMe = () => {
@@ -43,8 +43,8 @@ const ContactMe = () => {
         </a>
       </SocialItem>
       <SocialItem>
-        {/* <a
-          href="여기에 포트폴리오 주소"
+        <a
+          href="/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -52,7 +52,7 @@ const ContactMe = () => {
             <RiProfileFill />
           </div>
           Profile
-        </a> */}
+        </a>
       </SocialItem>
     </ContactMeContainer>
   );
