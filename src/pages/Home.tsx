@@ -16,9 +16,9 @@ const Home = () => {
       <div className="head">
         <div className="head-content">
           <h2 className="head-second">Front-end Developer</h2>
-          <h1 className="head-first">프론트엔드 개발자 조한준</h1>
+          <h1 className="head-first">프론트엔드 조한준</h1>
           <p className="head-text">
-            안녕하세요 개발자가 되고싶은 조한준입니다.
+            안녕하세요 프론트엔드 개발자가 되고싶은 조한준입니다.
           </p>
         </div>
         <div className="head-img">

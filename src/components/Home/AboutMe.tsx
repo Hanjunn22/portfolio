@@ -7,7 +7,7 @@ const AboutMe = () => {
         <div className="circle circle-1"></div>
         <div className="circle circle-2"></div>
         <div className="circle circle-3"></div>
-        <p className="text">조한준</p>
+        {/* <p className="text"></p> */}
       </div>
       <div className="screen">
         <p className="command">&gt; cat README.md</p>
