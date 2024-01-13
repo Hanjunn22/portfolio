@@ -126,7 +126,7 @@ const ArticleWrapper = styled.article`
     font-weight: 800;
   }
   .team {
-    background-color: #d05858;
+    background-color: #ac9a60;
   }
   .solo {
     background-color: #3e9dc3;
