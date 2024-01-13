@@ -36,7 +36,7 @@ export interface Project {
   
   export const projectsData: Project[] = [
     {
-      title: 'Was\'surf',
+      title: '🌊 Was\'surf',
       desc: '파도 정보 보고 서핑장소 찾는 서비스',
       skillDesc: [
         '캐러셀 슬라이드 구현',
