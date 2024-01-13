@@ -31,7 +31,7 @@ const ProjectArticle = ({ project }: ProjectArticleProps) => {
           자세히 보기
         </div>
         <div className="project-thumbnail">
-          <picture className="project-thumbnail-img">
+          {/* <picture className="project-thumbnail-img">
             <source
               srcSet={`/images/avif/${imageSrc}.avif`}
               type="image/avif"
@@ -41,7 +41,7 @@ const ProjectArticle = ({ project }: ProjectArticleProps) => {
               type="image/webp"
             />
             <img src={`/images/png/${imageSrc}.png`} />
-          </picture>
+          </picture> */}
         </div>
         <div className={`project-type ${project.team ? 'team' : 'solo'}`}>
           {project.team ? '팀 프로젝트' : '개인 프로젝트'}

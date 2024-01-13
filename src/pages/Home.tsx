@@ -23,9 +23,9 @@ const Home = () => {
         </div>
         <div className="head-img">
           <picture>
-            <source srcSet={`/images/myImg.avif`} type="image/avif" />
+            {/* <source srcSet={`/images/myImg.avif`} type="image/avif" />
             <source srcSet={`/images/myImg.webp`} type="image/webp" />
-            <img src={`/images/myImg.JPG`} />
+            <img src={`/images/myImg.JPG`} /> */}
           </picture>
         </div>
       </div>

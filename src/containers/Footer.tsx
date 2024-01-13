@@ -6,7 +6,7 @@ const Footer = () => (
     <ul className="social">
       <li>
         <a
-          href="https://github.com/RoseJang2000"
+          href="https://github.com/Hanjunn22"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -15,7 +15,7 @@ const Footer = () => (
       </li>
       <li>
         <a
-          href="mailto:dev.rosejang@gmail.com"
+          href="mailto:hanjunn22@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
         >

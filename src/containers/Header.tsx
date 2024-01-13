@@ -36,7 +36,7 @@ const Header = ({ theme, setTheme }: HeaderProps) => {
       <div className="title">
         <img className="title-icon" src={blueHeart} />
         <Link to="/" className="title-text">
-          <h1>Rose's&nbsp;</h1>
+          <h1>한준's&nbsp;</h1>
           <h1>Portfolio</h1>
         </Link>
       </div>
