@@ -129,7 +129,7 @@ const ArticleWrapper = styled.article`
     background-color: #ac9a60;
   }
   .solo {
-    background-color: #3e9dc3;
+    background-color: #4e8397;
   }
   .project-info {
     width: 100%;
