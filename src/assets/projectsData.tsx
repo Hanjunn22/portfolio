@@ -91,15 +91,15 @@ export interface Project {
             vid: 'rp8r1mLOY74',
           },
           {
-            name: '대륙 선택 페이지',
+            name: '서핑스팟 찾기 페이지',
             vid: 'rT_c0PzQmPQ',
           },
           {
-            name: '동행글 리스트 페이지',
+            name: '커뮤니티 페이지',
             vid: 'IEy3d72Rnug',
           },
           {
-            name: '프로필 페이지',
+            name: '강습예약 페이지',
             vid: 'hI7eLQlPilU',
           },
         ],
@@ -109,15 +109,15 @@ export interface Project {
             vid: 'D_JsBL4N_4Y',
           },
           {
-            name: '대륙 선택 페이지',
+            name: '서핑스팟 찾기 페이지',
             vid: '88YdHQVpaU0',
           },
           {
-            name: '동행글 리스트 페이지',
+            name: '커뮤니티 페이지',
             vid: '0d7q2Lvfiu8',
           },
           {
-            name: '프로필 페이지',
+            name: '강습예약 페이지',
             vid: 'pYIjzj44pBg',
           },
         ],
@@ -127,15 +127,15 @@ export interface Project {
             vid: '5jpRw1slyww',
           },
           {
-            name: '대륙 선택 페이지',
+            name: '서핑스팟 찾기 페이지',
             vid: 'nHyguTpfpIc',
           },
           {
-            name: '동행글 리스트 페이지',
+            name: '커뮤니티 페이지',
             vid: 'SU67dX2dU88',
           },
           {
-            name: '프로필 페이지',
+            name: '강습예약 페이지',
             vid: 'mlksjr5q26M',
           },
         ],
