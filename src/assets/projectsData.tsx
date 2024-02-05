@@ -142,7 +142,7 @@ export interface Project {
       },
     },
     {
-        title: '📰 포트폴리오',
+        title: '📰 Portfolio',
         desc: '포트폴리오 사이트',
         skillDesc: [
             'Vite를 이용한 프로젝트 개발환경 구축',
