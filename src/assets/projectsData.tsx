@@ -79,9 +79,9 @@ export interface Project {
       },
       stack: [
         'React',
+        'Javascript',
         'Axios',
         'Styled-components',
-        'React-Router',
       ],
       prod: {
         isTeam: true,
