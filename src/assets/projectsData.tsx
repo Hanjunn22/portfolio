@@ -79,7 +79,7 @@ export interface Project {
       },
       stack: [
         'React',
-        'Javascript',
+        'Java script',
         'Axios',
         'Styled-components',
       ],
@@ -187,5 +187,52 @@ export interface Project {
           ],
         },
         stack: ['React', 'TypeScript', 'Styled-components', 'React-Router']
+      },
+      {
+        title: '🐶 doggallery',
+        desc: '강아지 사진 사이트',
+        skillDesc: [
+            'Vite를 이용한 프로젝트 개발환경 구축',
+            '강아지 품종 api별로 사진 정렬',
+            '강아지 사진 데이터 1시간 유지',
+            '반응형 웹 구현',
+        ],
+        team: null,
+        links: [
+          {
+            name: '배포',
+            url: '',
+          },
+          {
+            name: '깃허브',
+            url: 'https://github.com/Hanjunn22/doggallery',
+          },
+        ],
+        dev: {
+            start: '2024-02-08',
+            end: '2024-02-15',
+        },
+        prod: {
+          isTeam: false,
+          desktop: [
+            {
+              name: '서비스 시연',
+              vid: 'kcMbnqpx7ho',
+            },
+          ],
+          tablet: [
+            {
+              name: '서비스 시연',
+              vid: 'ee8iCfevFRk',
+            },
+          ],
+          mobile: [
+            {
+              name: '서비스 시연',
+              vid: 'w2ovJeNBpF8',
+            },
+          ],
+        },
+        stack: ['React', 'TypeScript', 'Vite']
       }
 ]
