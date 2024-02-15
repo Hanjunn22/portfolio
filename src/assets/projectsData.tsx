@@ -189,7 +189,7 @@ export interface Project {
         stack: ['React', 'TypeScript', 'Styled-components', 'React-Router']
       },
       {
-        title: '🐶 doggallery',
+        title: ' doggallery',
         desc: '강아지 사진 사이트',
         skillDesc: [
             'Vite를 이용한 프로젝트 개발환경 구축',
@@ -233,6 +233,6 @@ export interface Project {
             },
           ],
         },
-        stack: ['React', 'TypeScript', 'Vite']
+        stack: ['React', 'TypeScript', 'Vite', 'Axios']
       }
 ]
