@@ -148,11 +148,12 @@ const ProjectModal = ({
             </ProjectStacks>
           </LeftSection>
           <RightSection>
-            {project.prod.isTeam ? (
+            {/* {project.prod.isTeam ? (
               <h1 className="title">프로젝트 내 맡은 페이지 화면</h1>
             ) : (
               <h1 className="title">구현 완료 페이지 화면</h1>
-            )}
+            )} */}
+            <h1 className="title">프로젝트 후기</h1>
             <div className="tabs">
               {tabs.map((tab, index) => (
                 <div
