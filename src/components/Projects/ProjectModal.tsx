@@ -20,8 +20,8 @@ const ProjectModal = ({
     index: 0,
     name: 'desktop',
   });
-  const [pageData, setPageData] = useState(project.prod.desktop);
-  const tabs = ['desktop', 'tablet', 'mobile'];
+  // const [pageData, setPageData] = useState(project.prod.설명);
+  const tabs = ['설명', '후기'];
 
   const handleCloseModal = () => {
     setIsShowModal(false);
@@ -32,7 +32,7 @@ const ProjectModal = ({
       index,
       name,
     });
-    setPageData(project.prod[name as keyof object]);
+    // setPageData(project.prod[name as keyof object]);
   };
 
   useEffect(() => {
@@ -168,7 +168,7 @@ const ProjectModal = ({
               ))}
             </div>
             <div className="project-pages">
-              {pageData.map((data, index) => (
+              {/* {pageData.map((data, index) => (
                 <div key={index} className="project-page-item">
                   {data.vid !== undefined && (
                     <div className="project-video">
@@ -191,7 +191,7 @@ const ProjectModal = ({
                     </div>
                   )}
                 </div>
-              ))}
+              ))} */}
             </div>
           </RightSection>
         </div>

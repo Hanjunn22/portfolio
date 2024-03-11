@@ -16,9 +16,7 @@ export interface Project {
     stack: string[];
     prod: {
       isTeam: boolean;
-      desktop: ProdPage[];
-      tablet: ProdPage[];
-      mobile: ProdPage[];
+      설명: string;
     };
   }
   
@@ -27,13 +25,7 @@ export interface Project {
     url: string;
   }
   
-  interface ProdPage {
-    name: string;
-    img?: string;
-    vid?: string;
-    vidDesc?: string;
-  }
-  
+
   export const projectsData: Project[] = [
     {
       title: '🌊 Was\'surf',
@@ -68,10 +60,6 @@ export interface Project {
           name: '요구사항 정의서',
           url: 'https://docs.google.com/spreadsheets/d/1NeADUBke6HSn23LA6O0oQlLJwCN74s9yQ4p06pi_WSQ/edit#gid=0',
         },
-        // {
-        //   name: '구현 완료 화면',
-        //   url: '',
-        // },
       ],
       dev: {
         start: '2023-03-03',
@@ -85,60 +73,7 @@ export interface Project {
       ],
       prod: {
         isTeam: true,
-        desktop: [
-          {
-            name: '메인 페이지',
-            vid: 'rp8r1mLOY74',
-          },
-          {
-            name: '서핑스팟 찾기 페이지',
-            vid: 'rT_c0PzQmPQ',
-          },
-          {
-            name: '커뮤니티 페이지',
-            vid: 'IEy3d72Rnug',
-          },
-          {
-            name: '강습예약 페이지',
-            vid: 'hI7eLQlPilU',
-          },
-        ],
-        tablet: [
-          {
-            name: '메인 페이지',
-            vid: 'D_JsBL4N_4Y',
-          },
-          {
-            name: '서핑스팟 찾기 페이지',
-            vid: '88YdHQVpaU0',
-          },
-          {
-            name: '커뮤니티 페이지',
-            vid: '0d7q2Lvfiu8',
-          },
-          {
-            name: '강습예약 페이지',
-            vid: 'pYIjzj44pBg',
-          },
-        ],
-        mobile: [
-          {
-            name: '메인 페이지',
-            vid: '5jpRw1slyww',
-          },
-          {
-            name: '서핑스팟 찾기 페이지',
-            vid: 'nHyguTpfpIc',
-          },
-          {
-            name: '커뮤니티 페이지',
-            vid: 'SU67dX2dU88',
-          },
-          {
-            name: '강습예약 페이지',
-            vid: 'mlksjr5q26M',
-          },
-        ],
+        설명: '',
       },
     },
     {
@@ -167,24 +102,7 @@ export interface Project {
         },
         prod: {
           isTeam: false,
-          desktop: [
-            {
-              name: '서비스 시연',
-              vid: 'kcMbnqpx7ho',
-            },
-          ],
-          tablet: [
-            {
-              name: '서비스 시연',
-              vid: 'ee8iCfevFRk',
-            },
-          ],
-          mobile: [
-            {
-              name: '서비스 시연',
-              vid: 'w2ovJeNBpF8',
-            },
-          ],
+          설명: '',
         },
         stack: ['React', 'TypeScript', 'Styled-components', 'React-Router']
       },
@@ -214,24 +132,7 @@ export interface Project {
         },
         prod: {
           isTeam: false,
-          desktop: [
-            {
-              name: '서비스 시연',
-              vid: 'kcMbnqpx7ho',
-            },
-          ],
-          tablet: [
-            {
-              name: '서비스 시연',
-              vid: 'ee8iCfevFRk',
-            },
-          ],
-          mobile: [
-            {
-              name: '서비스 시연',
-              vid: 'w2ovJeNBpF8',
-            },
-          ],
+          설명: '',
         },
         stack: ['React', 'TypeScript', 'Vite', 'Axios']
       }
