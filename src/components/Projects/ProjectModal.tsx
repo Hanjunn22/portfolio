@@ -21,7 +21,7 @@ const ProjectModal = ({
     name: 'desktop',
   });
   // const [pageData, setPageData] = useState(project.prod.설명);
-  const tabs = ['설명', '후기'];
+  const tabs = ['설명', '느낀점', '아쉬운점'];
 
   const handleCloseModal = () => {
     setIsShowModal(false);
